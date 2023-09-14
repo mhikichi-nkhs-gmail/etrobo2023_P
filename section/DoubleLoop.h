@@ -81,19 +81,19 @@ class DoubleLoop : public SectionManager {
             {Section::VIRTUALSTRAIGHT,{-6,25,20,5,2,LineTracer::LEFTEDGE},Section::LENGTH,{19},Section::NONE,{}},
             {Section::TRACER,{32, 0,  17, 10, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{45},Section::NONE,{}},
             //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
-            {Section::TRACER,{40, 0, 45, 10, 10,20,0,LineTracer::LEFTEDGE},Section::LENGTH,{35},Section::NONE,{}},
+            {Section::TRACER,{38, 0, 40, 20, 10,20,0,LineTracer::LEFTEDGE},Section::LENGTH,{35},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{100},Section::NONE,{}},
             {Section::TRACER,{33, -0.1,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},
             {Section::TRACER,{23, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},
-            {Section::TRACER,{70, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{63},Section::NONE,{}},
-            {Section::TRACER,{32, 0,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{30},Section::NONE,{}},
+            {Section::TRACER,{70, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{85},Section::NONE,{}},
+            {Section::TRACER,{32, 0,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{25},Section::NONE,{}},
             
             
             
-            {Section::TRACER,{23, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},
+            {Section::TRACER,{23, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{23},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{80},Section::NONE,{}},
             
-            {Section::VIRTUALSTRAIGHT,{0,16,20,5,2,LineTracer::LEFTEDGE},Section::COLOR,{20,0.5},Section::NONE,{}},//赤
+            {Section::VIRTUALSTRAIGHT,{0,15,15,3,0.7,LineTracer::LEFTEDGE},Section::COLOR,{20,0.5},Section::NONE,{}},//赤
             //{Section::TRACER,{25, 0,  30, 10, 7,0,0,LineTracer::LEFTEDGE},Section::COLOR,{15,0.1},Section::NONE,{}},
             
             //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
