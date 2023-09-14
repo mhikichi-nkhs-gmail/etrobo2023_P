@@ -73,7 +73,7 @@ class BlockDeTreasure : public SectionManager {
         int WinnerColor;
         int BlockCount = 0;
         int NotJudgeBlockFlag = 0;
-        
+        int BlueBlockCount = 0;
             
             
        
