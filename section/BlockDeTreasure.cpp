@@ -218,8 +218,10 @@ bool BlockDeTreasure::MoveToBlock3()
             if(BlueBlockCount == 2){
                 SelectGetting();
             }
-
-            SelectGetoutRed();
+            else
+            {
+                SelectGetoutRed();
+            }
         }
     }
     else
@@ -244,10 +246,12 @@ bool BlockDeTreasure::JudgeingColor()
         }
         else
         {
+            
             if(BlueBlockCount >= 1)
             {
                 NotJudgeBlockFlag = 1;
             }
+            
 
            SelectGetout();
         }
