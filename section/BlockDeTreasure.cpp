@@ -214,14 +214,7 @@ bool BlockDeTreasure::MoveToBlock3()
    if(NotJudgeBlockFlag == 1)
     {
         if(SectionManager::run()){
-            
-            if(BlueBlockCount == 2){
-                SelectGetting();
-            }
-            else
-            {
-                SelectGetoutRed();
-            }
+            SelectGetoutRed();
         }
     }
     else
@@ -246,12 +239,12 @@ bool BlockDeTreasure::JudgeingColor()
         }
         else
         {
-            
+            /*
             if(BlueBlockCount >= 1)
             {
                 NotJudgeBlockFlag = 1;
             }
-            
+            */
 
            SelectGetout();
         }
