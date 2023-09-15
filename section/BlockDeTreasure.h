@@ -884,7 +884,7 @@ class BlockDeTreasure : public SectionManager {
             {Section::TURNWALKER,{10,10,1.5,0.7},Section::BRIGHTNESS,{-0.4,0},Section::NONE,{}},
 
           
-            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{10},Section::NONE,{}},
+            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
             
             
             
@@ -1122,14 +1122,13 @@ class BlockDeTreasure : public SectionManager {
             {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{43},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{13},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
-            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{3},Section::NONE,{}},
-
+            {Section::WALKER,{0,0},Section::TIME,{200},Section::NONE,{}},
             //{Section::WALKER,{0,0},Section::LENGTH,{500},Section::NONE,{}},
 
-            {Section::TURNWALKER,{-10,10,1.5,0.7},Section::BRIGHTNESS,{-0.4,0},Section::NONE,{}},
+            {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{75},Section::NONE,{}},
             //{Section::WALKER,{0,10},Section::TURNANGLE,{-65},Section::NONE,{}},
             //{Section::WALKER,{-13, 0},Section::LENGTH,{-5},Section::NONE,{}},//後進
-            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{10},Section::NONE,{}},
+            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{14},Section::NONE,{}},
 
             {Section::END,{},Section::ENDJ,{}},
             
