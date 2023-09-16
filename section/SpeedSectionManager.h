@@ -47,13 +47,13 @@ class SpeedSectionManager : public SectionManager {
             //{Section::TRACER,{50, 0,  48, 10, 13,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
             {Section::TRACER,{80, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{294},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-            {Section::TRACER,{60, 0,  40, 22, 10,20,0,LineTracer::LEFTEDGE},Section::LENGTH,{36},Section::NONE,{}},
+            {Section::TRACER,{60, 0,  40, 20, 10,18,0,LineTracer::LEFTEDGE},Section::LENGTH,{35},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-            {Section::TRACER,{80, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{172},Section::NONE,{}},
+            {Section::TRACER,{80, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{175},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-            {Section::TRACER,{60, 0,  40, 22, 10,20,0,LineTracer::LEFTEDGE},Section::LENGTH,{36},Section::NONE,{}},
+            {Section::TRACER,{60, 0,  40, 20, 10,18,0,LineTracer::LEFTEDGE},Section::LENGTH,{35},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-            {Section::TRACER,{60, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{16},Section::NONE,{}},//LAP
+            {Section::TRACER,{80, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},//LAP
             
             //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
             
