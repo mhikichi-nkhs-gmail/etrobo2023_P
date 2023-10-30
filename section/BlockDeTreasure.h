@@ -113,14 +113,14 @@ class BlockDeTreasure : public SectionManager {
             
 
 
-            /*
+            
             {Section::DEFOLTARMCHANGE,{50},Section::TIME,{1},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
             {Section::TEEL,{70},Section::TEELANGLE,{4500},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
             {Section::DEFOLTARMCHANGE,{-33},Section::TIME,{5},Section::NONE,{}},
             //{Section::TURNWALKER,{-20,40,5,3},Section::TURNANGLE,{15},Section::NONE,{}},
-            */
+            
             
             {Section::END,{},Section::ENDJ,{}},
         };

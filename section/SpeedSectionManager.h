@@ -24,7 +24,10 @@ class SpeedSectionManager : public SectionManager {
             {Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
             //{Section::TRACER,{50, 0,  48, 10, 13,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
             {Section::TRACER,{100, 0,  49, 10, 13,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{290},Section::NONE,{}},
-            {Section::VIRTUALSTRAIGHT,{45,80,30,3,2},Section::LENGTH,{35},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{30,80,13,1.5,0.7},Section::LENGTH,{50},Section::NONE,{}},
+           
+           //{Section::VIRTUALSTRAIGHT,{45,80,30,3,2},Section::LENGTH,{15},Section::NONE,{}},
+
             {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
 
             {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::LENGTH,{5},Section::NONE,{}},
