@@ -18,5 +18,8 @@ class JudgeColor : public Judge
     private:
         double mHuekids;
         double mSatukids;
+
+        double tmpHue;
+        double tmpSatu;
 };
 #endif

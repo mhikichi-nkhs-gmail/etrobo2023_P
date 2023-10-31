@@ -123,7 +123,7 @@ void MyColorSensor::getHSV(rgb_f_t rgb, hsv_t& hsv)
 
     
     
-
+    
     if(d_color_flag == 0 && rgb_flag == 1)
     {
         r = r + 30;

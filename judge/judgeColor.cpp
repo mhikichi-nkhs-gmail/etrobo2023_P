@@ -29,17 +29,21 @@ bool JudgeColor::calcjudge()
 {
     //mHue->getValue()//とってくる色の値
     //mSatu->getValue()//とってくる彩度
+
+    
     static char str[256];
 
+    tmpHue = mHue->getValue();
+    tmpSatu = mSatu->getValue();
 
-    sprintf(str,"H : %f",mHue->getValue());
+    sprintf(str,"H : %f",tmpHue);
     msg_f(str,4);
 
-    sprintf(str,"S : %f",mSatu->getValue());
+    sprintf(str,"S : %f",tmpSatu);
     msg_f(str,5);
 
     double value;
-    value = mHue->getValue() - mHuekids;  //希望の色の範囲の中央値 ー とってくる色の値
+    value = tmpHue - mHuekids;  //希望の色の範囲の中央値 ー とってくる色の値
 
     value = fabs(value);
 
@@ -50,7 +54,7 @@ bool JudgeColor::calcjudge()
 
     if(value < 20)
     {
-        if(mSatukids < mSatu->getValue())
+        if(mSatukids < tmpSatu)
         {
             return true;
         }

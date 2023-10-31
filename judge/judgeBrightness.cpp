@@ -2,6 +2,7 @@
 
 #include "ev3api.h"
 
+#include "util.h"
 JudgeBrightness::JudgeBrightness()
 {
 }
@@ -25,11 +26,17 @@ bool JudgeBrightness::judgement()
 
 bool JudgeBrightness::calcjudge()
 {
+    static char str[256];
+
+    double bri;
     // printf("%f\n",mBrightnesskids);
-    printf("mBrightness->getValue()OK%f\n",mBrightness->getValue());
+    //printf("mBrightness->getValue()OK%f\n",mBrightness->getValue());
+
+    bri = mBrightness->getValue();
+
     if(mWhiteFlag == 1)
     {
-        if(mBrightnesskids <= mBrightness->getValue())
+        if(mBrightnesskids <= bri)
         {
             return true;
         }
@@ -38,7 +45,9 @@ bool JudgeBrightness::calcjudge()
     }
     else
     {
-        if(mBrightnesskids >= mBrightness->getValue())
+        sprintf(str,"bri:%f",bri);
+        msg_f(str,4);
+        if(mBrightnesskids >= bri)
         {
             return true;
         }
