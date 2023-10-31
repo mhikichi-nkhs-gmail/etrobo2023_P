@@ -35,7 +35,7 @@ class DoubleLoop : public SectionManager {
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
             
 
-            
+            /*
             {Section::TRACER,{50, -0.2,  33, 12, 9,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{5},Section::NONE,{}},
             //{Section::TRACER,{50, -0.2,  30, 12, 9,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{2},Section::NONE,{}},
             {Section::TRACER,{40, -0.2,  28, 12, 8,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{5},Section::NONE,{}},
@@ -99,7 +99,7 @@ class DoubleLoop : public SectionManager {
             
 
             {Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
-
+            */
             {Section::END,{},Section::ENDJ,{}},
         };
         /*{

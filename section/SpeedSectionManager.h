@@ -17,6 +17,7 @@ class SpeedSectionManager : public SectionManager {
             
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
 
+            /*
             //{Section::VIRTUALSTRAIGHT,{0,80,30,5,0.7},Section::LENGTH,{2000},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
 
@@ -40,7 +41,7 @@ class SpeedSectionManager : public SectionManager {
             {Section::TRACER,{65, 0,  49, 10, 13,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{13},Section::NONE,{}},//LAP
             
             //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
-            
+            */
 
 
            
