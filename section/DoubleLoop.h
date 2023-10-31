@@ -23,11 +23,6 @@ class DoubleLoop : public SectionManager {
             NONE
             */
 
-           /*?��?��?��?��
-            WALKER,{?��O?��i?��̃p?��?��?��[,?��?��?��?��̃p?��?��?��[}  //?��?��?��?��̃p?��?��?��[?��͉E?��?��]?��?��?��v?��?��?��X?��A?��?��?��?��]?��̓}?��C?��i?��X//
-            TRACER,{?��?��?��x,?��?��?��?��,P,I,D,?��p?��x?��ڕW?��l,?��?��?��?��?��P}
-            ARM,{?��ڕW?��̃A?��[?��?��?��̊p?��x}
-            TEEL,{?��?��?��?��?��ۂ�??��?��[?��^?��[?��̋�?��?��}
             END
             */
            
@@ -42,7 +37,6 @@ class DoubleLoop : public SectionManager {
             //{Section::TRACER,{40, -0.2,  28, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{6},Section::NONE,{}},
             {Section::TRACER,{21, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{12},Section::NONE,{}},
 
-            {Section::TRACER,{18, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},//青�?��?�カー検知用
             //{Section::TRACER,{22, 0,  30, 10, 5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
             //{Section::TRACER,{22, -0.5,  30, 10, 5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{100},Section::NONE,{}},
@@ -54,7 +48,6 @@ class DoubleLoop : public SectionManager {
             //{Section::TRACER,{22, -0.5,  30, 10, 5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{10},Section::NONE,{}},
             {Section::TRACER,{33, 0,  18, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{128},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{100},Section::NONE,{}},
-            {Section::TRACER,{21, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},//青�?��?�カー検知用
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
             {Section::TRACER,{23, 0,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{14},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{-15,25,20,5,2,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
