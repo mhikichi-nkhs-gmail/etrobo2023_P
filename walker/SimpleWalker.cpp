@@ -57,7 +57,7 @@ void SimpleWalker::run() {
     //printf("%f\n",pwm_l);
     //printf("%f\n",pwm_r);
 
-    static const int MAXPWM=85;
+    static const int MAXPWM=110;
     int diff = 0;
     if(pwm_l>MAXPWM) {
         pwm_r = (int)((double)MAXPWM*pwm_r/pwm_l);
@@ -86,7 +86,7 @@ void SimpleWalker::run() {
 }
 
 /**
- * PWM値を設定す�?
+ * PWM値を設定す�?
  * @param forward 前進値
  * @param turn    旋回値
  */
