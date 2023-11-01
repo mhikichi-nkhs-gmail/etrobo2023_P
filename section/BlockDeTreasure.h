@@ -129,7 +129,7 @@ class BlockDeTreasure : public SectionManager {
             
             {Section::WALKER,{0, 0},Section::TIME,{2},Section::NONE,{}},
             {Section::TURNWALKER,{10,10,1.5,0.7},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
-            {Section::TURNWALKER,{10,10,1.5,0.7},Section::TURNANGLE,{-13},Section::NONE,{}},
+            {Section::TURNWALKER,{10,10,1.5,0.7},Section::TURNANGLE,{-8},Section::NONE,{}},
 
             {Section::WALKER,{0, 0},Section::TIME,{2},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
@@ -156,17 +156,19 @@ class BlockDeTreasure : public SectionManager {
 
             {Section::WALKER,{0, 0},Section::TIME,{10},Section::NONE,{}},
 
-            {Section::WALKER,{-10, 0},Section::LENGTH,{-5},Section::NONE,{}},
+            //{Section::WALKER,{-10, 0},Section::LENGTH,{-5},Section::NONE,{}},
             
-            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{12},Section::NONE,{}},
+            {Section::TRACER,{12, -0.25,  30, 16, 3.4,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{7},Section::NONE,{}},
             
-            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{200,0.5},Section::NONE,{}},//??¿½?¿½?
+            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{220,0.8},Section::NONE,{}},//??¿½?¿½?
+            {Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
+
             
-            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{10},Section::NONE,{}},
+            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{11},Section::NONE,{}},
             
             
         
-            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{18},Section::NONE,{}},//???¿½?¿½??¿½?¿½?
+            {Section::TRACER,{12, -0.25,  30, 16, 3.4,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{18},Section::NONE,{}},//???¿½?¿½??¿½?¿½?
             
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{15,0.5},Section::NONE,{}},//èµ¤
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{9},Section::NONE,{}},
