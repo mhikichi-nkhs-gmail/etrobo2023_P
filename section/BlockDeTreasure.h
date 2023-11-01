@@ -108,11 +108,11 @@ class BlockDeTreasure : public SectionManager {
             //{Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
 
 
-            /*
+            
             //‚µ‚Á‚Û‚µ‚Ü‚¤
             {Section::TEEL,{-70},Section::TEELANGLE,{-4700},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
-            */
+            
             
             /*
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
@@ -124,12 +124,12 @@ class BlockDeTreasure : public SectionManager {
             
             {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{73},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{0,36,30,10,3.45},Section::LENGTH,{40},Section::NONE,{}},
-            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
+            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{2},Section::NONE,{}},
             
             {Section::WALKER,{0, 0},Section::TIME,{2},Section::NONE,{}},
-            {Section::TURNWALKER,{10,10,1.5,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
-            {Section::TURNWALKER,{10,10,1.5,0.7},Section::TURNANGLE,{-10},Section::NONE,{}},
+            {Section::TURNWALKER,{10,10,1.5,0.7},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
+            {Section::TURNWALKER,{10,10,1.5,0.7},Section::TURNANGLE,{-13},Section::NONE,{}},
 
             {Section::WALKER,{0, 0},Section::TIME,{2},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
@@ -158,11 +158,11 @@ class BlockDeTreasure : public SectionManager {
 
             {Section::WALKER,{-10, 0},Section::LENGTH,{-5},Section::NONE,{}},
             
-            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{10},Section::NONE,{}},
+            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{12},Section::NONE,{}},
             
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{200,0.5},Section::NONE,{}},//??¿½?¿½?
             
-            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{9},Section::NONE,{}},
+            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{10},Section::NONE,{}},
             
             
         
