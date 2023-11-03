@@ -94,62 +94,72 @@ bool BlockDeTreasure::run()
         case JUDGEING_COLOR:
             JudgeingColor();
             break;
-        case INIT_GETOUT_BLOCK:
+    
+
+        case INIT_GETOUT_BLOCK_1:
             //reset();
-            init(GetoutBlockpara);
+            init(GetoutBlockpara1);
             BlockCount++;
             BlueBlockCount++;
-            mState = GETOUT_BLOCK;
+            mState = GETOUT_BLOCK_1;
             break;
-        case GETOUT_BLOCK:
+        case GETOUT_BLOCK_1:
             GetoutBlock();
             break;
-        case INIT_GETOUT_BLOCK_RED:
+
+        case INIT_GETOUT_BLOCK_2:
             //reset();
-            init(GetoutBlockRedpara);
+            init(GetoutBlockpara2);
             BlockCount++;
             BlueBlockCount++;
-            mState = GETOUT_BLOCK_RED;
+            mState = GETOUT_BLOCK_2;
             break;
-        case GETOUT_BLOCK_RED:
+        case GETOUT_BLOCK_2:
             GetoutBlock();
             break;
-        case INIT_GETOUT_BLOCK_LEFT:
+
+        case INIT_GETOUT_BLOCK_3:
             //reset();
-            init(GetoutBlockLeftpara);
+            init(GetoutBlockpara3);
             BlockCount++;
             BlueBlockCount++;
-            mState = GETOUT_BLOCK_LEFT;
+            mState = GETOUT_BLOCK_3;
             break;
-        case GETOUT_BLOCK_LEFT:
-            GetoutBlockLeft();
+        case GETOUT_BLOCK_3:
+            GetoutBlock();
             break;
-        case INIT_GETOUT_BLOCK_LEFT_RED:
+
+        case INIT_GETOUT_BLOCK_RED_1:
             //reset();
-            init(GetoutBlockLeftRedpara);
+            init(GetoutBlockRedpara1);
             BlockCount++;
             BlueBlockCount++;
-            mState = GETOUT_BLOCK_LEFT_RED;
+            mState = GETOUT_BLOCK_RED_1;
             break;
-        case GETOUT_BLOCK_LEFT_RED:
-            GetoutBlockLeft();
+        case GETOUT_BLOCK_RED_1:
+            GetoutBlock();
             break;
-        case INIT_GETTING_BLOCK:
+
+        case INIT_GETOUT_BLOCK_RED_2:
             //reset();
-            init(GettingBlockpara);
+            init(GetoutBlockRedpara2);
             BlockCount++;
-            mState = GETTING_BLOCK;
+            BlueBlockCount++;
+            mState = GETOUT_BLOCK_RED_2;
             break;
-        case GETTING_BLOCK:
-            GettingBlock();
+        case GETOUT_BLOCK_RED_2:
+            GetoutBlock();
             break;
-        case INIT_GETTING_BLOCK_LEFT:
-            init(GettingBlockleftpara);
+
+        case INIT_GETOUT_BLOCK_RED_3:
+            //reset();
+            init(GetoutBlockRedpara3);
             BlockCount++;
-            mState = GETTING_BLOCK_LEFT;
+            BlueBlockCount++;
+            mState = GETOUT_BLOCK_RED_3;
             break;
-        case GETTING_BLOCK_LEFT:
-            GettingBlockLeft();
+        case GETOUT_BLOCK_RED_3:
+            GetoutBlock();
             break;
 
 
@@ -354,17 +364,17 @@ void BlockDeTreasure::SelectGetout()
 {
     if(BlockCount == 0)
     {
-        mState = INIT_GETOUT_BLOCK_LEFT;
+        mState = INIT_GETOUT_BLOCK_1;
     }
 
     if(BlockCount == 1)
     {
-        mState = INIT_GETOUT_BLOCK;
+        mState = INIT_GETOUT_BLOCK_2;
     }
 
     if(BlockCount == 2)
     {
-        mState = INIT_GETOUT_BLOCK_LEFT;
+        mState = INIT_GETOUT_BLOCK_3;
     }
 
 }
@@ -391,17 +401,17 @@ void BlockDeTreasure::SelectGetoutRed()
 {
     if(BlockCount == 0)
     {
-        mState = INIT_GETOUT_BLOCK_LEFT_RED;
+        mState = INIT_GETOUT_BLOCK_RED_1;
     }
 
     if(BlockCount == 1)
     {
-        mState = INIT_GETOUT_BLOCK_RED;
+        mState = INIT_GETOUT_BLOCK_RED_2;
     }
 
     if(BlockCount == 2)
     {
-        mState = INIT_GETOUT_BLOCK_LEFT_RED;
+        mState = INIT_GETOUT_BLOCK_RED_3;
     }
 }
 #endif

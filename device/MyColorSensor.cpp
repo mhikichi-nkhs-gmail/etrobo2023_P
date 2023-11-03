@@ -132,7 +132,7 @@ void MyColorSensor::getHSV(rgb_f_t rgb, hsv_t& hsv)
 
         d_color_flag = 1;
 
-        printf("RGB return1 OK");
+        //printf("RGB return1 OK");
     }
 
     if(block_color_flag == 0 && rgb_flag == 2)
@@ -143,7 +143,7 @@ void MyColorSensor::getHSV(rgb_f_t rgb, hsv_t& hsv)
 
         block_color_flag = 1;
 
-        printf("RGB return2 OK");
+        //printf("RGB return2 OK");
     }
     
 

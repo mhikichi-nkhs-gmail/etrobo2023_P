@@ -68,10 +68,17 @@ bool JudgeBlockColor::calcjudge()
     //赤の判定開始
     static char str[256];
 
-    sprintf(str,"RED H  %f",mHue->getValue());
+    double tmpHue;
+    double tmpSatu;
+
+    tmpHue = mHue->getValue();
+    tmpSatu = mSatu->getValue();
+
+    sprintf(str,"RED H  %f",tmpHue);
     msg_f(str,4);
+
     double Redvalue;
-    Redvalue = mHue->getValue() - mHueRedkids;  //希望の色の範囲の中央値 ー とってくる色の値
+    Redvalue = tmpHue - mHueRedkids;  //希望の色の範囲の中央値 ー とってくる色の値
     
     Redvalue = fabs(Redvalue);
 
@@ -83,7 +90,7 @@ bool JudgeBlockColor::calcjudge()
     if(Redvalue < 20)
     {
         //printf("RED H  %f\n",mHue->getValue());
-        if(mSatukids < mSatu->getValue())
+        if(mSatukids < tmpSatu)
         {
             //printf("RED S  %f\n",mSatu->getValue());
             RedBlockCount++;
@@ -96,7 +103,10 @@ bool JudgeBlockColor::calcjudge()
 
     //青の判定開始
     double Bluevalue;
-    Bluevalue = mHue->getValue() - mHueBluekids;  //希望の色の範囲の中央値 ー とってくる色の値
+
+
+    
+    Bluevalue = tmpHue - mHueBluekids;  //希望の色の範囲の中央値 ー とってくる色の値
     //printf("BLUE H  %f\n",mHue->getValue());
     Bluevalue = fabs(Bluevalue);
     
@@ -105,10 +115,12 @@ bool JudgeBlockColor::calcjudge()
         Bluevalue = 360 - Bluevalue;
     }
 
+
+
     if(Bluevalue < 20)
     {
         //printf("BLUE H  %f\n",mHue->getValue());
-        if(mSatukids < mSatu->getValue())
+        if(mSatukids < tmpSatu)
         {
             //printf("BLUE S  %f\n",mSatu->getValue());
             BlueBlockCount++;
