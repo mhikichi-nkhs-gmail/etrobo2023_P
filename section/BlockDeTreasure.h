@@ -110,7 +110,7 @@ class BlockDeTreasure : public SectionManager {
 
             //{Section::TRACER,{12, -0.3,  30, 10, 3.3,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{9000},Section::NONE,{}},
             
-            {Section::TRACER,{12, -0.3,  20, 20, 2.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{1300},Section::NONE,{}},
+            //{Section::TRACER,{10, -0.3,15, 16, 3.3,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{1300},Section::NONE,{}},
 
             /*
             //‚µ‚Á‚Û‚µ‚Ü‚¤
@@ -136,7 +136,7 @@ class BlockDeTreasure : public SectionManager {
 
 
             
-            {Section::DEFOLTARMCHANGE,{10},Section::TIME,{1},Section::NONE,{}},
+            {Section::DEFOLTARMCHANGE,{8},Section::TIME,{1},Section::NONE,{}},
             
             {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{73},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{0,36,30,10,3.45},Section::LENGTH,{40},Section::NONE,{}},
@@ -179,7 +179,7 @@ class BlockDeTreasure : public SectionManager {
 
             //{Section::WALKER,{-10, 0},Section::LENGTH,{-5},Section::NONE,{}},
             
-            {Section::TRACER,{12, -0.3,  30, 3, 0.7,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{13},Section::NONE,{}},
+            {Section::TRACER,{12, -0.3,  25, 13, 2.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{13},Section::NONE,{}},
             
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{220,0.9},Section::NONE,{}},//??¿½?¿½?
             //{Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
@@ -187,7 +187,7 @@ class BlockDeTreasure : public SectionManager {
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{10},Section::NONE,{}},
             
         
-            {Section::TRACER,{12, -0.3,  30, 3, 0.7,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{18},Section::NONE,{}},//???¿½?¿½??¿½?¿½?
+            {Section::TRACER,{12, -0.3,  30, 13, 1,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{18},Section::NONE,{}},//???¿½?¿½??¿½?¿½?
             
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{355,0.5},Section::NONE,{}},//èµ¤
             
@@ -195,7 +195,7 @@ class BlockDeTreasure : public SectionManager {
             
           
 
-            {Section::TRACER,{12, -0.3,  30, 3, 0.7,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{14},Section::NONE,{}},
+            {Section::TRACER,{12, -0.3,  30, 13, 1,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{14},Section::NONE,{}},
        
             
             {Section::END,{},Section::ENDJ,{}},
