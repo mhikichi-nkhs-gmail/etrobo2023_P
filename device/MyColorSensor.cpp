@@ -59,6 +59,10 @@ void MyColorSensor::setRGB(int rgb_f)
     mMax_B  = raw.b; 
     sprintf(str,"mMax_B:%d",mMax_B);
     msg_f(str,3);
+
+    voltage = ev3_battery_voltage_mV();
+    sprintf(str,"voltage:%d",voltage);
+    msg_f(str,5);
 }
 
 void MyColorSensor::update()

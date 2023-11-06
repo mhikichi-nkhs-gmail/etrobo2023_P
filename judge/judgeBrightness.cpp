@@ -20,7 +20,7 @@ void JudgeBrightness::setpara(double para[])
 
 bool JudgeBrightness::judgement()
 {
-    return calcjudge();
+    return calcjudge(); 	
 }
 
 bool JudgeBrightness::calcjudge()
@@ -31,6 +31,7 @@ bool JudgeBrightness::calcjudge()
     {
         if(mBrightnesskids <= mBrightness->getValue())
         {
+             ev3_speaker_play_tone(493.88,400);
             return true;
         }
 
@@ -40,6 +41,7 @@ bool JudgeBrightness::calcjudge()
     {
         if(mBrightnesskids >= mBrightness->getValue())
         {
+            ev3_speaker_play_tone(261.63,400);
             return true;
         }
 
