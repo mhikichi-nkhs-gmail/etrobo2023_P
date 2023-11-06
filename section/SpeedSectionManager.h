@@ -15,7 +15,7 @@ class SpeedSectionManager : public SectionManager {
         SecParam spara [100] = {
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
 
-            
+            /*
             {Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
             //{Section::TRACER,{50, 0,  48, 10, 13,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
             {Section::TRACER,{110, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{275},Section::NONE,{}},
