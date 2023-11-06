@@ -36,6 +36,13 @@ class MotorManager
 
         double Set90Count = 400;
 
+        double volt;
+
+        double colcvoltage;
+
+
+
+
 };
 
 #endif

@@ -95,7 +95,7 @@ bool BlockDeTreasure::run()
             JudgeingColor();
             break;
     
-
+        
         case INIT_GETOUT_BLOCK_1:
             //reset();
             init(GetoutBlockpara1);
@@ -161,7 +161,7 @@ bool BlockDeTreasure::run()
         case GETOUT_BLOCK_RED_3:
             GetoutBlock();
             break;
-
+        
 
         case INIT_GETTING_BLOCK_1:
             //reset();
@@ -226,6 +226,7 @@ bool BlockDeTreasure::IntoBlockDeTreasure()
 
 bool BlockDeTreasure::MoveToBlock()
 {
+    
     if(NotJudgeBlockFlag == 1)
     {
         if(SectionManager::run()){
@@ -238,6 +239,9 @@ bool BlockDeTreasure::MoveToBlock()
             mState = INIT_JUDGEING_COLOR;
         }
     }
+    
+
+  
 }
 
 bool BlockDeTreasure::MoveToBlock2()

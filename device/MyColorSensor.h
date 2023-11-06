@@ -44,6 +44,8 @@ class MyColorSensor
 
         rgb_raw_t getRgb();
 
+        
+
     private:
         ePortS mPort;
         Brightness *mBrightness;
@@ -76,6 +78,8 @@ class MyColorSensor
 
         int d_color_flag = 0;
         int block_color_flag = 0;
+
+        int voltage;
 
 };
 
