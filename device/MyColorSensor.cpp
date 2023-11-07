@@ -124,6 +124,7 @@ void MyColorSensor::getHSV(rgb_f_t rgb, hsv_t& hsv)
                
     double h=0, s=0, v=0;
 
+    /*
     if(d_color_flag == 0 && rgb_flag == 1)
     {
         r = r + 30;
@@ -145,6 +146,7 @@ void MyColorSensor::getHSV(rgb_f_t rgb, hsv_t& hsv)
 
         //printf("RGB return2 OK");
     }
+    */
 
     if (r >= g && g >= b) { 
         
