@@ -80,7 +80,8 @@ class BlockDeTreasure : public SectionManager {
     
 #if PATARN == 1
         SecParam IntoBlockDeTreasurepara[100] = {
-
+            {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
+            
             //{Section::VIRTUALSTRAIGHT,{0,36,30,10,3.45},Section::LENGTH,{400},Section::NONE,{}},
 
 
@@ -91,7 +92,7 @@ class BlockDeTreasure : public SectionManager {
 
 
             //{Section::TRACER,{23, -0.25,  30, 10, 3.45,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
-
+            /*
             {Section::DEFOLTARMCHANGE,{5},Section::TIME,{1},Section::NONE,{}},
             
             {Section::TURNWALKER,{10,10,1.5,0.7},Section::TURNANGLE,{-75},Section::NONE,{}},
@@ -101,17 +102,17 @@ class BlockDeTreasure : public SectionManager {
             {Section::WALKER,{0, 0},Section::TIME,{2},Section::NONE,{}},
             {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{65},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{2},Section::NONE,{}},
-            
+            */
 
 
-            
+            /*
             {Section::DEFOLTARMCHANGE,{50},Section::TIME,{1},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
             {Section::TEEL,{70},Section::TEELANGLE,{4700},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
             {Section::DEFOLTARMCHANGE,{-33},Section::TIME,{5},Section::NONE,{}},
             //{Section::TURNWALKER,{-20,40,5,3},Section::TURNANGLE,{15},Section::NONE,{}},
-            
+            */
             
             {Section::END,{},Section::ENDJ,{}},
         };
@@ -120,7 +121,7 @@ class BlockDeTreasure : public SectionManager {
 
             {Section::WALKER,{0, 0},Section::TIME,{10},Section::NONE,{}},
             
-            {Section::TRACER,{12, -0.25,  30, 16, 3.45,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{12},Section::NONE,{}},
+            {Section::TRACER,{12, -0.25,  30, 40, 3.2,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{1200},Section::NONE,{}},
             
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::LEFTEDGE},Section::COLOR,{200,0.5},Section::NONE,{}},//??¿½?¿½?
             
