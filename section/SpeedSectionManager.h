@@ -32,7 +32,7 @@ class SpeedSectionManager : public SectionManager {
             
             {Section::TRACER,{90, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::BRIGHTNESS,{0.4,1},Section::NONE,{}},
             //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
-            {Section::VIRTUALCURVE,{-20,60,13,1.5,0.7},Section::BRIGHTNESS,{0.2,0},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{-25,60,13,1.5,0.7},Section::BRIGHTNESS,{0.2,0},Section::NONE,{}},
             
             {Section::VIRTUALSTRAIGHT,{3,60,30,10,3.45},Section::LENGTH,{10},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{2,50,15,3,0.7},Section::BRIGHTNESS,{-0.5,0},Section::NONE,{}},
