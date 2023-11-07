@@ -39,26 +39,35 @@ class BlockDeTreasure : public SectionManager {
             INIT_MOVE_TO_BLOCK_3,
             MOVE_TO_BLOCK_3,
 
-            INIT_GETOUT_BLOCK,
-            GETOUT_BLOCK,
+            INIT_GETOUT_BLOCK_1,
+            GETOUT_BLOCK_1,
 
-            INIT_GETOUT_BLOCK_RED,
-            GETOUT_BLOCK_RED,
+            INIT_GETOUT_BLOCK_2,
+            GETOUT_BLOCK_2,
 
-            INIT_GETOUT_BLOCK_LEFT,
-            GETOUT_BLOCK_LEFT,
+            INIT_GETOUT_BLOCK_3,
+            GETOUT_BLOCK_3,
 
-            INIT_GETOUT_BLOCK_LEFT_RED,
-            GETOUT_BLOCK_LEFT_RED,
+            INIT_GETOUT_BLOCK_RED_1,
+            GETOUT_BLOCK_RED_1,
+
+            INIT_GETOUT_BLOCK_RED_2,
+            GETOUT_BLOCK_RED_2,
+
+            INIT_GETOUT_BLOCK_RED_3,
+            GETOUT_BLOCK_RED_3,
 
             INIT_JUDGEING_COLOR,
             JUDGEING_COLOR,
 
-            INIT_GETTING_BLOCK,
-            GETTING_BLOCK,
+            INIT_GETTING_BLOCK_1,
+            GETTING_BLOCK_1,
 
-            INIT_GETTING_BLOCK_LEFT,
-            GETTING_BLOCK_LEFT,
+            INIT_GETTING_BLOCK_2,
+            GETTING_BLOCK_2,
+
+            INIT_GETTING_BLOCK_3,
+            GETTING_BLOCK_3,
 
             INIT_MOVE_TO_GOAL,
             MOVE_TO_GOAL,
