@@ -11,17 +11,20 @@ MotorManager::MotorManager(Motor *left, Motor *right):
 }
 void MotorManager::setPwm(int left,int right)
 {
-
+    /*
     double tmpvoltage = 8900;
         
-        volt = ev3_battery_voltage_mV();
+    volt = ev3_battery_voltage_mV();
 
-       colcvoltage = tmpvoltage/volt;
+    colcvoltage = tmpvoltage/volt;
 
         
-        mLeftMotor->setPWM(left*colcvoltage);
-        mRightMotor->setPWM(right*colcvoltage);
+    mLeftMotor->setPWM(left*colcvoltage);
+    mRightMotor->setPWM(right*colcvoltage);
+    */
 
+    mLeftMotor->setPWM(left);
+    mRightMotor->setPWM(right);
 }
 
 void MotorManager::init()
