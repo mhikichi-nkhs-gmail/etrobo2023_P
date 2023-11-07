@@ -339,8 +339,6 @@ class BlockDeTreasure : public SectionManager {
 
             {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{89},Section::NONE,{}},
 
-
-
             
             {Section::TRACER,{18, -0.25,  30, 16, 3.45,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{30},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::LENGTH,{2000},Section::NONE,{}},
