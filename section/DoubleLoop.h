@@ -68,13 +68,13 @@ class DoubleLoop : public SectionManager {
             {Section::TRACER,{21, 0,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{28.5},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{-12.2,21,20,5,2,LineTracer::LEFTEDGE},Section::LENGTH,{6},Section::NONE,{}},
-            {Section::TRACER,{31, 0,  16, 0, 8,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{105},Section::NONE,{}},//230
+            {Section::TRACER,{31, 0,  16, 0, 8,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{115},Section::NONE,{}},//230
             //{Section::TRACER,{21, -0.2, 17, 12, 8,0,0,LineTracer::RIGHTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
             //{Section::TRACER,{21, -0.1,  17, 12, 8,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{34},Section::NONE,{}},
-            {Section::VIRTUALSTRAIGHT,{0,40,20,5,2,LineTracer::RIGHTEDGE},Section::LENGTH,{80},Section::NONE,{}},
+            {Section::VIRTUALSTRAIGHT,{0,40,20,5,2,LineTracer::RIGHTEDGE},Section::LENGTH,{90},Section::NONE,{}},
             {Section::TURNWALKER,{5,8,0,0,LineTracer::LEFTEDGE},Section::BRIGHTNESS,{-0.1,0},Section::NONE,{}},
-            //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
+            {Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
             //{Section::TRACER,{30, -0.4,  40, 10, 9,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{5},Section::NONE,{}},
             
             //{Section::VIRTUALSTRAIGHT,{2,23,20,5,2,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},//1107
