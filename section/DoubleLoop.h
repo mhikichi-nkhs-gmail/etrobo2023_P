@@ -99,7 +99,7 @@ class DoubleLoop : public SectionManager {
             {Section::VIRTUALSTRAIGHT,{0,15,15,3,0.7,LineTracer::LEFTEDGE},Section::COLOR,{20,0.5},Section::NONE,{}},//赤
             //{Section::TRACER,{25, 0,  30, 10, 7,0,0,LineTracer::LEFTEDGE},Section::COLOR,{15,0.1},Section::NONE,{}},
             
-            //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
+            {Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
             
             //{Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
             
