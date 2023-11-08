@@ -19,13 +19,15 @@ class SpeedSectionManager : public SectionManager {
             {Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
             //{Section::TRACER,{50, 0,  48, 10, 13,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
             {Section::TRACER,{110, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{275},Section::NONE,{}},
-            {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{54.5},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{-35,80,13,2,0.7},Section::LENGTH,{58.6},Section::NONE,{}},
             
             
-            {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{20},Section::NONE,{}},
-            {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
+            {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{160},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{-15,80,13,1.5,0.7},Section::LENGTH,{26},Section::NONE,{}},
+            {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{40},Section::NONE,{}},
+            //{Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
             //{Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::LENGTH,{5},Section::NONE,{}},
-            //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
+            {Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
             //{Section::VIRTUALSTRAIGHT,{-4,80,15,3,0.7},Section::LENGTH,{6},Section::NONE,{}},
             //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::TIME,{100},Section::NONE,{}},
             
@@ -37,7 +39,7 @@ class SpeedSectionManager : public SectionManager {
             {Section::TRACER,{110, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{95},Section::NONE,{}},
             //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::TIME,{100},Section::NONE,{}},
              {Section::TRACER,{110, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::BRIGHTNESS,{0.3,1},Section::NONE,{}},
-            {Section::VIRTUALCURVE,{-15,80,13,1.5,0.7},Section::LENGTH,{24},Section::NONE,{}},
+            
             {Section::TRACER,{110, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{25},Section::NONE,{}},
 /* 
 {Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{500},Section::NONE,{}},
