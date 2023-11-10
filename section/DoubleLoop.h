@@ -68,7 +68,7 @@ class DoubleLoop : public SectionManager {
             {Section::TRACER,{21, 0,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{28.5},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{-12.2,21,20,5,2,LineTracer::LEFTEDGE},Section::LENGTH,{6},Section::NONE,{}},
-            {Section::TRACER,{31, 0,  16, 0, 8,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{115},Section::NONE,{}},//230
+            {Section::TRACER,{31, 0,  16, 0, 8,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{112},Section::NONE,{}},//230
             //{Section::TRACER,{21, -0.2, 17, 12, 8,0,0,LineTracer::RIGHTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},
             //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
             //{Section::TRACER,{21, -0.1,  17, 12, 8,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{34},Section::NONE,{}},
@@ -94,11 +94,11 @@ class DoubleLoop : public SectionManager {
             //{Section::TRACER,{32, -0.1,  20, 10, 9,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},//1107
             //{Section::TRACER,{23, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},//1107
             //{Section::TRACER,{70, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{30},Section::NONE,{}},
-            {Section::TRACER,{40, 0,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},
+            {Section::TRACER,{40, 0,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
             
             
             
-            {Section::TRACER,{23, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
+            {Section::TRACER,{23, -0.2,  17, 12, 8,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{80},Section::NONE,{}},
             
             {Section::VIRTUALSTRAIGHT,{0,15,15,3,0.7,LineTracer::LEFTEDGE},Section::COLOR,{20,0.5},Section::NONE,{}},//赤
