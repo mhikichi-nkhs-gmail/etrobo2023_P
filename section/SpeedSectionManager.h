@@ -102,24 +102,24 @@ class SpeedSectionManager : public SectionManager {
                 {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
                 {Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
                 //{Section::TRACER,{50, 0,  48, 10, 13,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
-                {Section::TRACER,{100, 0,  40, 20, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{273},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  40, 20, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{275},Section::NONE,{}},
                 //{Section::WALKER,{0, 0},Section::LENGTH,{150},Section::NONE,{}},
-                {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{53.5},Section::NONE,{}},
+                {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{52},Section::NONE,{}},
                 
                 
                 {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{22},Section::NONE,{}},
                 {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
                 
-                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{98},Section::NONE,{}},
-                {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{31},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{106},Section::NONE,{}},
+                {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{29},Section::NONE,{}},
                 
-                {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{19},Section::NONE,{}},
+                {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{30},Section::NONE,{}},
                 {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
-                {Section::VIRTUALSTRAIGHT,{-20,40,20,5,2},Section::LENGTH,{5},Section::NONE,{}},
+                {Section::VIRTUALSTRAIGHT,{-23,40,20,5,2},Section::LENGTH,{3},Section::NONE,{}},
                 
                 {Section::TRACER,{70, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{3},Section::NONE,{}},
                 {Section::WALKER,{0, 0},Section::TIME,{100},Section::NONE,{}},
-                {Section::WALKER,{-20, 0},Section::LENGTH,{-18},Section::NONE,{}},
+                {Section::WALKER,{-20, 0},Section::LENGTH,{-14},Section::NONE,{}},
             
             #endif
             
