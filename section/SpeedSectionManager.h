@@ -16,15 +16,15 @@ class SpeedSectionManager : public SectionManager {
             #if SC_PATARN == 0 //safety parameter
                 {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
                 {Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
-                {Section::TRACER,{75, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{294},Section::NONE,{}},
+                {Section::TRACER,{75, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{294},Section::NONE,{}},
                 //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-                {Section::TRACER,{50, 0,  40, 20, 10,18,0,LineTracer::LEFTEDGE},Section::LENGTH,{35},Section::NONE,{}},
+                {Section::TRACER,{50, 0,  40, 20, 10,-18,0,LineTracer::RIGHTEDGE},Section::LENGTH,{35},Section::NONE,{}},
                 //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-                {Section::TRACER,{75, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{175},Section::NONE,{}},
+                {Section::TRACER,{75, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{175},Section::NONE,{}},
                 //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-                {Section::TRACER,{50, 0,  40, 20, 10,18,0,LineTracer::LEFTEDGE},Section::LENGTH,{35},Section::NONE,{}},
+                {Section::TRACER,{50, 0,  40, 20, 10,-18,0,LineTracer::RIGHTEDGE},Section::LENGTH,{35},Section::NONE,{}},
                 //{Section::WALKER,{0, 0},Section::TIME,{150},Section::NONE,{}},
-                {Section::TRACER,{75, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},//LAP
+                {Section::TRACER,{75, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{20},Section::NONE,{}},//LAP
             
             #endif
             
@@ -32,19 +32,19 @@ class SpeedSectionManager : public SectionManager {
                 {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
                 {Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
                 //{Section::TRACER,{50, 0,  48, 10, 13,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
-                {Section::TRACER,{100, 0,  40, 20, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{273},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  40, 20, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{273},Section::NONE,{}},
                 //{Section::WALKER,{0, 0},Section::LENGTH,{150},Section::NONE,{}},
-                {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{54},Section::NONE,{}},
+                {Section::VIRTUALCURVE,{35,80,13,1.5,0.7},Section::LENGTH,{52.5},Section::NONE,{}},
                 
                 
                 {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{20},Section::NONE,{}},
                 {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
                 
-                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{105},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{115},Section::NONE,{}},
                 //{Section::TRACER,{0, 0, 0, 0, 0,0,0,LineTracer::LEFTEDGE},Section::TIME,{100},Section::NONE,{}},
-                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::BRIGHTNESS,{0.4,1},Section::NONE,{}},
-                {Section::VIRTUALCURVE,{-15,80,13,1.5,0.7},Section::LENGTH,{24},Section::NONE,{}},
-                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{24},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::BRIGHTNESS,{0.4,1},Section::NONE,{}},
+                {Section::VIRTUALCURVE,{26,80,13,1.5,0.7},Section::LENGTH,{24},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{24},Section::NONE,{}},
             
             #endif
             
@@ -75,23 +75,23 @@ class SpeedSectionManager : public SectionManager {
                 {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
                 {Section::DEFOLTARMCHANGE,{-15},Section::TIME,{3},Section::NONE,{}},
                 //{Section::TRACER,{50, 0,  48, 10, 13,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
-                {Section::TRACER,{100, 0,  40, 20, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{257},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  40, 20, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{257},Section::NONE,{}},
                 //{Section::WALKER,{0, 0},Section::LENGTH,{150},Section::NONE,{}},
-                {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{40},Section::NONE,{}},
+                {Section::VIRTUALCURVE,{35,80,13,1.5,0.7},Section::LENGTH,{40},Section::NONE,{}},
                 
                 {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{40},Section::NONE,{}},
                 {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
-                {Section::VIRTUALSTRAIGHT,{-20,40,20,5,2},Section::LENGTH,{5},Section::NONE,{}},
+                {Section::VIRTUALSTRAIGHT,{20,40,20,5,2},Section::LENGTH,{5},Section::NONE,{}},
 
 
-                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{98},Section::NONE,{}},
-                {Section::VIRTUALCURVE,{-35,80,13,1.5,0.7},Section::LENGTH,{40},Section::NONE,{}},
+                {Section::TRACER,{100, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{98},Section::NONE,{}},
+                {Section::VIRTUALCURVE,{35,80,13,1.5,0.7},Section::LENGTH,{40},Section::NONE,{}},
                 
-                {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{20},Section::NONE,{}},
+                {Section::VIRTUALSTRAIGHT,{0,100,30,10,3.45},Section::LENGTH,{17},Section::NONE,{}},
                 {Section::VIRTUALSTRAIGHT,{0,80,15,3,0.7},Section::BRIGHTNESS,{-0.2,0},Section::NONE,{}},
-                {Section::VIRTUALSTRAIGHT,{-20,40,20,5,2},Section::LENGTH,{5},Section::NONE,{}},
+                {Section::VIRTUALSTRAIGHT,{20,40,20,5,2},Section::LENGTH,{5},Section::NONE,{}},
                 
-                {Section::TRACER,{70, 0,  49, 10, 12,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{5},Section::NONE,{}},
+                {Section::TRACER,{70, 0,  49, 10, 12,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{5},Section::NONE,{}},
                 {Section::WALKER,{0, 0},Section::TIME,{100},Section::NONE,{}},
                 {Section::WALKER,{-20, 0},Section::LENGTH,{-30},Section::NONE,{}},
 
