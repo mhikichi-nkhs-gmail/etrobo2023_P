@@ -1,6 +1,8 @@
 #ifndef __HACKEV3_H__
 #define __HACKEV3_H__
 
+#define SC_PATARN 4   //ショートカットパターンの選択
+
 #define PATARN 5   //�u���b�N�̔z�u�p�^�[���ɂ���ĕς���
 
 const double D_RIGHT=10.00;
