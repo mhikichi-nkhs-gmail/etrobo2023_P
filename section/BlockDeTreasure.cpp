@@ -378,7 +378,7 @@ void BlockDeTreasure::SelectGetout()
 {
     if(BlockCount == 0)
     {
-        mState = INIT_GETOUT_BLOCK;
+        mState = INIT_GETOUT_BLOCK_LEFT;
     }
 
     if(BlockCount == 1)
