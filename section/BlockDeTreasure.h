@@ -90,28 +90,6 @@ class BlockDeTreasure : public SectionManager {
 #if PATARN == 1
         SecParam IntoBlockDeTreasurepara[100] = {
 
-            //{Section::VIRTUALSTRAIGHT,{0,36,30,10,3.45},Section::LENGTH,{400},Section::NONE,{}},
-
-
-            //{Section::VIRTUALSTRAIGHT,{0,27,10,10,3.8},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
-
-
-            //{Section::TRACER,{18, -0.25,  30, 16, 3.45,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{1000},Section::NONE,{}},
-
-
-            //{Section::TRACER,{23, -0.25,  30, 10, 3.45,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
-
-            //{Section::TRACER,{14, -0.25,  30, 16, 3.45,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{2000},Section::NONE,{}},//基本のライントレース
-
-            //{Section::VIRTUALCURVE,{7,12,13,1.5,0.7},Section::LENGTH,{1500},Section::NONE,{}},
-
-            //{Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
-            //{Section::DEFOLTARMCHANGE,{5},Section::TIME,{1},Section::NONE,{}},
-
-            //{Section::TRACER,{12, -0.3,  30, 10, 3.3,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{9000},Section::NONE,{}},
-            
-            //{Section::TRACER,{10, -0.3,15, 16, 3.3,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{1300},Section::NONE,{}},
-
             /*
             //しっぽしまう
             {Section::TEEL,{-70},Section::TEELANGLE,{-4700},Section::NONE,{}},
@@ -128,7 +106,7 @@ class BlockDeTreasure : public SectionManager {
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
             {Section::TEEL,{70},Section::TEELANGLE,{4700},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
-            {Section::DEFOLTARMCHANGE,{-36},Section::TIME,{5},Section::NONE,{}},
+            {Section::DEFOLTARMCHANGE,{1},Section::TIME,{5},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
             */
 
@@ -176,10 +154,6 @@ class BlockDeTreasure : public SectionManager {
         };
 
         SecParam MoveToBlockpara[100] = {
-
-            {Section::WALKER,{100, 0},Section::LENGTH,{10000},Section::NONE,{}},
-
-            {Section::WALKER,{10, 0},Section::LENGTH,{50000},Section::NONE,{}},
             
             {Section::TRACER,{12, -0.1,  20, 75, 1.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{13},Section::NONE,{}},
             
