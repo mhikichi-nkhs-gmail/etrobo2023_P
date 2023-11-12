@@ -154,9 +154,9 @@ class BlockDeTreasure : public SectionManager {
         };
 
         SecParam MoveToBlockpara[100] = {
-            
-            {Section::TRACER,{12, -0.1,  20, 75, 1.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{13},Section::NONE,{}},
-            
+
+            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{13},Section::NONE,{}},
+                        
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{210,0.7},Section::NONE,{}},//??¿½?¿½?
             //{Section::WALKER,{0, 0},Section::LENGTH,{100},Section::NONE,{}},
             
