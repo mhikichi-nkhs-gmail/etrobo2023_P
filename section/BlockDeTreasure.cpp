@@ -22,11 +22,11 @@ bool BlockDeTreasure::runBlock()
 
     if(mSection[mSectionIdx]->run())
     {
-        printf("runBlock()OK\n");
+        //printf("runBlock()OK\n");
         if(mSection[mSectionIdx]->returnValue() != -1)
         {
             WinnerColor = mSection[mSectionIdx]->returnValue();
-            printf("WinnerColor%d\n",WinnerColor);
+            //printf("WinnerColor%d\n",WinnerColor);
         }
         mSectionIdx++;
 

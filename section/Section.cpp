@@ -32,7 +32,7 @@ Section::Section():
 
 Section::~Section()
 {
-    msg_log("destruct Section");
+    //msg_log("destruct Section");
     delete mWalker;
 }
 
@@ -70,7 +70,7 @@ bool Section::run()
         if(mJudge->JudgeID() == BLOCKCOLOR)
         {
             value = ((JudgeBlockColor*)mJudge)->RedBlueWinner();
-            printf("value%d\n",value);
+            //printf("value%d\n",value);
         }
         return true;
     }
@@ -84,7 +84,7 @@ bool Section::run()
 
 int Section::returnValue()
 {
-    printf("returnValue%d\n",value);
+    //printf("returnValue%d\n",value);
     return value;
 }
 
