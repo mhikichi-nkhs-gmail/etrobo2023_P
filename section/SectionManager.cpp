@@ -9,7 +9,7 @@ SectionManager::SectionManager()
 
 SectionManager::~SectionManager()
 {
-    msg_log("destruct SectionManager");
+    //msg_log("destruct SectionManager");
 
     for(int i=0;i<mLastIdx;i++) {
         delete mSection[i];

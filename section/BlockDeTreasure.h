@@ -750,6 +750,8 @@ class BlockDeTreasure : public SectionManager {
 
 #if PATARN == 3
         SecParam IntoBlockDeTreasurepara[100] = {
+
+            /*
             {Section::DEFOLTARMCHANGE,{5},Section::TIME,{1},Section::NONE,{}},
             
             {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{75},Section::NONE,{}},
@@ -761,14 +763,14 @@ class BlockDeTreasure : public SectionManager {
 
             
             {Section::WALKER,{0, 0},Section::TIME,{2},Section::NONE,{}},
-           
+           */
             
 
 
             
             {Section::DEFOLTARMCHANGE,{50},Section::TIME,{1},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
-            {Section::TEEL,{70},Section::TEELANGLE,{4700},Section::NONE,{}},
+            {Section::TEEL,{-70},Section::TEELANGLE,{-4700},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
             {Section::DEFOLTARMCHANGE,{1},Section::TIME,{5},Section::NONE,{}},
 
@@ -1035,6 +1037,8 @@ class BlockDeTreasure : public SectionManager {
 
 #if PATARN == 4
         SecParam IntoBlockDeTreasurepara[100] = {
+
+            /*
             {Section::DEFOLTARMCHANGE,{5},Section::TIME,{1},Section::NONE,{}},
             
             {Section::TURNWALKER,{-10,10,1.5,0.7},Section::TURNANGLE,{75},Section::NONE,{}},
@@ -1058,6 +1062,9 @@ class BlockDeTreasure : public SectionManager {
             {Section::DEFOLTARMCHANGE,{1},Section::TIME,{5},Section::NONE,{}},
 
             {Section::WALKER,{0, 0},Section::TIME,{1},Section::NONE,{}},
+            */
+            {Section::DEFOLTARMCHANGE,{1},Section::TIME,{5},Section::NONE,{}},
+
             {Section::END,{},Section::ENDJ,{}},
         };
 
@@ -1065,12 +1072,12 @@ class BlockDeTreasure : public SectionManager {
 
             {Section::WALKER,{0, 0},Section::TIME,{10},Section::NONE,{}},
             
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{12},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{12},Section::NONE,{}},
             
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7,LineTracer::RIGHTEDGE},Section::COLOR,{200,0.4},Section::NONE,{}},
             {Section::VIRTUALCURVE,{7,12,13,1.5,0.7},Section::LENGTH,{5},Section::NONE,{}},
             {Section::VIRTUALCURVE,{7,12,13,1.5,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{14.5},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{15},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{200},Section::NONE,{}},
 
             
@@ -1080,19 +1087,19 @@ class BlockDeTreasure : public SectionManager {
         SecParam MoveToBlockpara2[100] = {
 
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{15,0.4},Section::NONE,{}},
-            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{9},Section::NONE,{}},
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{19},Section::NONE,{}},
+            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{10},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{19},Section::NONE,{}},
             
 
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{15,0.4},Section::NONE,{}},
             
-            {Section::VIRTUALCURVE,{7,12,13,1.5,0.7},Section::LENGTH,{7},Section::NONE,{}},
-            {Section::VIRTUALCURVE,{7,12,13,1.5,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{7,12,13,15,0.7},Section::LENGTH,{7},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{7,12,13,15,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
             //{Section::WALKER,{0, -7},Section::TURNANGLE,{15},Section::NONE,{}},
 
 
             
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{14},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{14},Section::NONE,{}},
             
             {Section::WALKER,{0, 0},Section::TIME,{200},Section::NONE,{}},
             
@@ -1107,12 +1114,12 @@ class BlockDeTreasure : public SectionManager {
 
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{40,0.5},Section::NONE,{}},//??申?申?
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{9},Section::NONE,{}},
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{19},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{19},Section::NONE,{}},
 
 
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{105,0.5},Section::NONE,{}},
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::LENGTH,{9},Section::NONE,{}},
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{18},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{18},Section::NONE,{}},
             
 
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{105,0.5},Section::NONE,{}},
@@ -1122,7 +1129,7 @@ class BlockDeTreasure : public SectionManager {
             
 
 
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{14},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{14},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::TIME,{200},Section::NONE,{}},
 
             
@@ -1164,11 +1171,11 @@ class BlockDeTreasure : public SectionManager {
             
             {Section::TURNWALKER,{18,2,0.5,0.2},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
             {Section::TURNWALKER,{18,2,0.5,0.2},Section::TURNANGLE,{-25},Section::NONE,{}},
-            {Section::TURNWALKER,{-18,2,0.5,0.2},Section::TURNANGLE,{28},Section::NONE,{}},
+            {Section::TURNWALKER,{-18,2,0.5,0.2},Section::TURNANGLE,{29},Section::NONE,{}},
             
             
             
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{9},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{10},Section::NONE,{}},
             
             
             
@@ -1194,7 +1201,7 @@ class BlockDeTreasure : public SectionManager {
             {Section::TURNWALKER,{18,2,0.5,0.2},Section::TURNANGLE,{-28},Section::NONE,{}},
             
 
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{9},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{10},Section::NONE,{}},
             {Section::END,{},Section::ENDJ,{}},
         };
 
@@ -1215,12 +1222,12 @@ class BlockDeTreasure : public SectionManager {
 
             
             {Section::TURNWALKER,{18,2,0.5,0.2},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
-            {Section::TURNWALKER,{18,2,0.5,0.2},Section::TURNANGLE,{-30},Section::NONE,{}},
-            {Section::TURNWALKER,{-18,2,0.5,0.2},Section::TURNANGLE,{30},Section::NONE,{}},
+            {Section::TURNWALKER,{18,2,0.5,0.2},Section::TURNANGLE,{-25},Section::NONE,{}},
+            {Section::TURNWALKER,{-18,2,0.5,0.2},Section::TURNANGLE,{28},Section::NONE,{}},
             
             
             
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{9},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{9},Section::NONE,{}},
             {Section::END,{},Section::ENDJ,{}},
         };
 
@@ -1239,11 +1246,11 @@ class BlockDeTreasure : public SectionManager {
 
             
             {Section::TURNWALKER,{-18,2,0.5,0.2},Section::BRIGHTNESS,{-0.3,0},Section::NONE,{}},
-            {Section::TURNWALKER,{-18,2,0.5,0.2},Section::TURNANGLE,{30},Section::NONE,{}},
-            {Section::TURNWALKER,{18,2,0.5,0.2},Section::TURNANGLE,{-30},Section::NONE,{}},
+            {Section::TURNWALKER,{-18,2,0.5,0.2},Section::TURNANGLE,{25},Section::NONE,{}},
+            {Section::TURNWALKER,{18,2,0.5,0.2},Section::TURNANGLE,{-28},Section::NONE,{}},
             
 
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{9},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{9},Section::NONE,{}},
 
             {Section::END,{},Section::ENDJ,{}},
             
@@ -1253,19 +1260,19 @@ class BlockDeTreasure : public SectionManager {
         SecParam GettingBlockpara1[100] = {
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{210,0.3},Section::NONE,{}},//??申?申?
             {Section::WALKER,{15, 0},Section::LENGTH,{0},Section::NONE,{}},
-            {Section::VIRTUALCURVE,{-8,12,13,1.5,0.7},Section::LENGTH,{7},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{-7,12,13,1.5,0.7},Section::LENGTH,{7},Section::NONE,{}},
 
-            {Section::VIRTUALCURVE,{-8,12,13,1.5,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{-7,12,13,1.5,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
             
 
             
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{11.5},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{14},Section::NONE,{}},
             {Section::END,{},Section::ENDJ,{}},
         };
 
 
         SecParam GettingBlockpara2[100] = {
-            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{30,0.7},Section::NONE,{}},//??申?申?
+            {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{40,0.5},Section::NONE,{}},//??申?申?
             
 
             {Section::WALKER,{15, 0},Section::LENGTH,{0},Section::NONE,{}},
@@ -1274,7 +1281,7 @@ class BlockDeTreasure : public SectionManager {
             {Section::VIRTUALCURVE,{7.5,12,13,1.5,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
             
 
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{11.5},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::RIGHTEDGE},Section::LENGTH,{14},Section::NONE,{}},
 
             {Section::END,{},Section::ENDJ,{}},
         };
@@ -1283,13 +1290,13 @@ class BlockDeTreasure : public SectionManager {
             {Section::VIRTUALSTRAIGHT,{0,12,15,3,0.7},Section::COLOR,{105,0.5},Section::NONE,{}},//??申?申?
 
             {Section::WALKER,{15, 0},Section::LENGTH,{0},Section::NONE,{}},
-            {Section::VIRTUALCURVE,{-8,12,13,1.5,0.7},Section::LENGTH,{7},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{-7,12,13,1.5,0.7},Section::LENGTH,{7},Section::NONE,{}},
 
-            {Section::VIRTUALCURVE,{-8,12,13,1.5,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
+            {Section::VIRTUALCURVE,{-7,12,13,1.5,0.7},Section::BRIGHTNESS,{0.1,0},Section::NONE,{}},
             
 
             
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{11.5},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{14},Section::NONE,{}},
             {Section::END,{},Section::ENDJ,{}},
         };
 
@@ -1307,13 +1314,13 @@ class BlockDeTreasure : public SectionManager {
 
             //{Section::VIRTUALSTRAIGHT,{0,18,22,5,2},Section::BRIGHTNESS,{-0.13,0},Section::NONE,{}},
 
-            {Section::TURNWALKER,{18,2,0.5,0.2},Section::BRIGHTNESS,{0.05,0},Section::NONE,{}},
+            {Section::TURNWALKER,{16,2,0.5,0.2},Section::BRIGHTNESS,{0.05,0},Section::NONE,{}},
 
 
 
             
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},
-            {Section::TRACER,{18, -0.25,  40, 75, 5.5,0,0,LineTracer::LEFTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::LENGTH,{20},Section::NONE,{}},
+            {Section::TRACER,{15, -0.25,  20, 75, 5.0,0,0,LineTracer::LEFTEDGE},Section::COLOR,{228,0.16},Section::NONE,{}},
             {Section::WALKER,{0, 0},Section::LENGTH,{2000},Section::NONE,{}},
             {Section::END,{},Section::ENDJ,{}},
         };

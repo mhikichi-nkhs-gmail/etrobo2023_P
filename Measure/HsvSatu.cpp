@@ -19,11 +19,11 @@ void HsvSatu::update(double s)
     mLpf->addValue(s);
     mSatu = s;
 
-    /*
+    
     static char str[256];
 
     sprintf(str,"S:%f",mSatu);
     msg_f(str,5);
-    */
+    
     
 }
