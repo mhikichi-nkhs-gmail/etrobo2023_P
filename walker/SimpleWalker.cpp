@@ -86,7 +86,7 @@ void SimpleWalker::run() {
 }
 
 /**
- * PWM値を設定す�?
+ * PWM値を設定す�?
  * @param forward 前進値
  * @param turn    旋回値
  */

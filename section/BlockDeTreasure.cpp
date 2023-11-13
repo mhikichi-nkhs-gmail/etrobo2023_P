@@ -209,7 +209,7 @@ bool BlockDeTreasure::MoveToBlock()
     if(NotJudgeBlockFlag == 1)
     {
         if(SectionManager::run()){
-           SelectGetoutRed();
+            SelectGetoutRed();
         }
     }
     else

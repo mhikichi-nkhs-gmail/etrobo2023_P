@@ -67,6 +67,7 @@ class MyColorSensor
         int mMax_B;
         int mMin_B;
         int rgb_flag;
+        int voltage;
 
         double mBright;
         double mNorm_bright;

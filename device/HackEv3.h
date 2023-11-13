@@ -1,7 +1,9 @@
 #ifndef __HACKEV3_H__
 #define __HACKEV3_H__
 
-#define PATARN 4   //ブロックの配置パターンによって変える
+#define SC_PATARN 3  //繧ｷ繝ｧ繝ｼ繝医き繝?繝医ヱ繧ｿ繝ｼ繝ｳ縺ｮ驕ｸ謚?
+
+#define PATARN 5   //?ｿｽu?ｿｽ?ｿｽ?ｿｽb?ｿｽN?ｿｽﾌ配?ｿｽu?ｿｽp?ｿｽ^?ｿｽ[?ｿｽ?ｿｽ?ｿｽﾉゑｿｽ?ｿｽ?ｿｽﾄ変ゑｿｽ?ｿｽ?ｿｽ
 
 const double D_RIGHT=10.00;
 const double D_LEFT=10.0;
