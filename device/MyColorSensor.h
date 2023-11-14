@@ -80,7 +80,6 @@ class MyColorSensor
         int d_color_flag = 0;
         int block_color_flag = 0;
 
-        int voltage;
 
 };
 
