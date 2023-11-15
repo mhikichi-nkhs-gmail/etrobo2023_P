@@ -9,7 +9,7 @@ SectionManager::SectionManager()
 
 SectionManager::~SectionManager()
 {
-    msg_log("destruct SectionManager");
+    
 
     for(int i=0;i<mLastIdx;i++) {
         delete mSection[i];
@@ -34,7 +34,7 @@ void SectionManager::init(SecParam spara[])
         Judge* selectjudge = (Judge*)sc->selectJudge(spara[i].judge_no);
         selectjudge->setpara(spara[i].judge);
 
-        //ˆÙí”»’è
+        //ï¿½Ùí”»ï¿½ï¿½
         /*
         Judge* selectbadjudge = (Judge*)sc->selectJudge(spara[i].judge_no_bad);
         selectjudge->setpara(spara[i].judge_bad);
@@ -72,7 +72,7 @@ void SectionManager::addSection(Section *sec)
     mSection[mLastIdx++]=sec;
 }
 
-/*bool SpeedSectionManager::run()//–½—ß‚ğ‚Ğ‚Á‚Ï‚Á‚Ä‚­‚é–½—ß‚ğ”\ŒÂì‚é(‚±‚ê‚Í‚Ü‚¾ˆêŒÂ‚¾‚¯‚Ğ‚Á‚Ï‚Á‚Ä‚­‚é‚à‚Ì)
+/*bool SpeedSectionManager::run()//ï¿½ï¿½ï¿½ß‚ï¿½ï¿½Ğ‚ï¿½ï¿½Ï‚ï¿½ï¿½Ä‚ï¿½ï¿½é–½ï¿½ß‚ğ”\ï¿½Âï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½Í‚Ü‚ï¿½ï¿½ï¿½Â‚ï¿½ï¿½ï¿½ï¿½Ğ‚ï¿½ï¿½Ï‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 {
     if(mSection[mSectionIdx]->run())
         return true;
